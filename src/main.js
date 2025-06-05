@@ -187,6 +187,7 @@ function groupForecastsByDay(list) {
     const daily = [];
     const seenDates = new Set();
     list.forEach(f => {
+        // Convert timestamp to date string (YYYY-MM-DD)
         const date = new Date(f.dt * 1000).toLocaleDateString();
         if (!seenDates.has(date)) {
             seenDates.add(date);
