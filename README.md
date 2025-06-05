@@ -12,7 +12,6 @@ A modern weather dashboard application that shows current weather and 5-day fore
 2. Open the project folder:
    ```bash
    cd weather-app
-   npm i
    ```
 
 ## Features
